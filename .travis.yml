@@ -7,9 +7,10 @@ env:
   - VERSIE="versie 6"
 
 before_install:
-  - echo "versie = $VERSIE" 
+  - echo "before install versie = $VERSIE" 
 
 install:
+  - echo "install versie = $VERSIE" 
   - npm install
 
 script: npm test
