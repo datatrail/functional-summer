@@ -17,5 +17,5 @@ install:
 
 script: 
   - echo "script versie = $VERSIE" 
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAM" --password-stdin
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - npm test
