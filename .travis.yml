@@ -4,11 +4,10 @@ node_js:
   - "6.14.1"
 
 env:
-  - VERSIE="6"
+  - VERSIE="versie 6"
 
 before_install:
-  - export VERSIE=$VERSIE
-  - echo "$VERSIE" 
+  - echo "versie = $VERSIE" 
 
 install:
   - npm install
