@@ -4,7 +4,9 @@ node_js:
   - "6.14.1"
 
 env:
-  - VERSIE="versie 6"
+  - global:
+    - VERSIE="versie 6"
+    - secure: "KB1L9mijgT5pOgO2HuNaILh11dWywXwF7y8JuNqki1FmHyZ4AQdB3Tbwwu8PxddY+CqDxato2wSCUwc5ENMjcO5XPad3U3rvGQyD/MEKvJK/A8XBXtgn45eQ+NYP5FcwCoPcoUJvUIgIjrSt1rsrmsmUmBsceMgdVXv9cNB5QX4XTz+kBzBlkQx44psaYA6z+4PxU64mjrhMkrn+qcnnnVw1nnl6Y5CJ53axn3LVQgjgKgk7X8PA8tEQ+RWTMmQE09EaQQXwijoCG4GrwcCevjjwE/s4J2LqnWeFIpRywf9vcXWMviyHaMCC2tAw7P3ng/L63AF6+qwie1uVaAq59XMoq+YIiwSrcb8jDMzxTof1qZkkbcC6QlrrLFQNlTPWjuVzz1cHi4jwogDhXFY4gAbVOhMXrEaMBaqrnqUTxAIZYXRNOku39keLEZoKQtWwdc0lNpi2oIdAU22lzj8/OLPazzxVBfIplCQ+mCOivmETPQvRon05VRxvIUESlrxfWJDJqWebWv0A4rujzAxlih73tyx2tyVDGrzFICbSK+Mx12bpk2zrKpvSqU3FD6aRDNrUiT+JE29P712ovmR5v3IBseo4m3W+FbJaRrjWJrvgmxg0zZaN/vVvP0PwmtSVnjVINnwZHAF3GAYhMyYwMrW6d4Br3Wg6Ep9NbeNDurM="
 
 before_install:
   - echo "before install versie = $VERSIE" 
