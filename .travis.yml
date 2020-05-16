@@ -10,7 +10,8 @@ before_install:
   - echo "before install versie = $VERSIE" 
 
 install:
-  - echo "install versie = $VERSIE" 
   - npm install
 
-script: npm test
+script: 
+  - echo "script versie = $VERSIE" 
+  - npm test
