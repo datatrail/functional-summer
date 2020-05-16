@@ -3,6 +3,13 @@ language: node_js
 node_js:
   - "6.14.1"
 
+env:
+  - VERSIE="6"
+
+before_install:
+  - export VERSIE=$VERSIE
+  - echo "$VERSIE" 
+
 install:
   - npm install
 
